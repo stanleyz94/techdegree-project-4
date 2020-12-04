@@ -1,0 +1,49 @@
+// Color Variables
+$white: #fff;
+$grey: #777;
+$gallery: #ccc;
+$gunsmoke: #767978;
+
+//Grid colors
+
+$purple-mountain: #927bc1;
+$emerald: #63cc82;
+$viking: #58e1c1;
+$coral: #fd7856;
+$french-lilac: #deb2ee;
+$anakiwa: #7ee6fd;
+$vista-blue: #88d9a0;
+$fountain-blue: #4da2bb;
+$sea-pink: #ec9fa3;
+$vivid-tangerine: #fd9f85;
+$sunglo: #e4757a;
+$malibu: #51ddfc;
+$riptide: #80e8d1;
+
+//Grid colors pallete
+$themes: (
+  "col-1": $purple-mountain,
+  "col-2": $coral,
+  "col-3": $french-lilac,
+  "col-4": $anakiwa,
+  "col-5": $vista-blue,
+  "col-6": $fountain-blue,
+  "col-7": $sea-pink,
+  "col-8": $vivid-tangerine,
+  "col-9": $sunglo,
+  "col-10": $emerald,
+  "col-11": $malibu,
+  "col-12": $riptide,
+);
+
+//Font stacks
+$lato-font-stack: "Lato", sans-serif;
+
+// Media Query Breakpoints
+
+$brk-narrow: "(min-width: 768px)";
+
+//Typography
+
+$font-weight-l: 300;
+$font-weight-drk: 700;

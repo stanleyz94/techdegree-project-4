@@ -1,0 +1,15 @@
+@mixin img-prop(
+  $disp: block,
+  $mrg-left: auto,
+  $mrg-right: auto,
+  $mrg-top: null,
+  $mx-width: null,
+  $mx-height: null
+) {
+  display: $disp;
+  margin-left: $mrg-left;
+  margin-right: $mrg-right;
+  margin-top: $mrg-top;
+  max-width: $mx-width;
+  max-height: $mx-height;
+}
